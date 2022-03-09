@@ -3,7 +3,7 @@ package com.example.algorithm_basic_zx.practice_questions;
 import java.util.Arrays;
 import java.util.TreeMap;
 
-public class LeetCodeMaxProfit2 {
+public class A020_LeetCodeMaxProfit2 {
     public static void main(String[] args) {
 //        int[] startTime = {43, 13, 36, 31, 40, 5, 47, 13, 28, 16, 2, 11};
 //        int[] endTime = {44, 22, 41, 41, 47, 13, 48, 35, 48, 26, 21, 39};

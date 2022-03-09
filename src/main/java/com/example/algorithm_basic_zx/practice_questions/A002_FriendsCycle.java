@@ -1,11 +1,13 @@
-package com.example.algorithm_basic_zx.other;
+package com.example.algorithm_basic_zx.practice_questions;
+
+import com.example.algorithm_basic_zx.other.UnionFind;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-public class T003_FriendsCycle {
+public class A002_FriendsCycle {
     public static void main(String[] args) {
         int[][] queries = {{1, 2}, {3, 4}, {1, 4}, {6, 7}, {8, 9}, {10, 11}, {6, 10}, {8, 11}, {11, 21}};
         int[] result = groupFriends( queries );

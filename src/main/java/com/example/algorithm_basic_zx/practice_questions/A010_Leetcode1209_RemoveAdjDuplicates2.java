@@ -4,7 +4,7 @@ import java.util.Stack;
 
 //https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/submissions/
 //Array Burst
-public class Leetcode1209_RemoveAdjDuplicates2 {
+public class A010_Leetcode1209_RemoveAdjDuplicates2 {
     public static void main(String[] args) {
         String s = "deeedbbcccbdaa";
         int k = 3;

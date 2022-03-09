@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Leetcode49_AnagramGroup {
+public class A008_Leetcode49_AnagramGroup {
     public static void main(String[] args) {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
         List<List<String>> result = groupAnagrams(strs);

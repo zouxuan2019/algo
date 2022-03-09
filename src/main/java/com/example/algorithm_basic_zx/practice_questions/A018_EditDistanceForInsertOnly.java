@@ -1,6 +1,6 @@
 package com.example.algorithm_basic_zx.practice_questions;
 
-public class EditDistanceForInsertOnly {
+public class A018_EditDistanceForInsertOnly {
     public static void main(String[] args) {
         int[] A = {1, 3, 4, 2, 5, 6};
         int[] B = {3, 4, 6, 5, 7};

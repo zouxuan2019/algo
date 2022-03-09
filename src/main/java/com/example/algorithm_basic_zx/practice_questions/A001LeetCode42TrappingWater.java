@@ -1,6 +1,6 @@
 package com.example.algorithm_basic_zx.practice_questions;
 
-public class LeetCode42TrappingWater {
+public class A001LeetCode42TrappingWater {
     public static void main(String[] args) {
         int[] arr = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
 
