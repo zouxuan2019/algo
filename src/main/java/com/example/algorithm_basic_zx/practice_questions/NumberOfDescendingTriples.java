@@ -117,24 +117,27 @@ public class NumberOfDescendingTriples {
     }
 
     public static void main(String[] args) {
-        int len = 20;
-        int value = 100;
-        int testTimes = 10000;
-        System.out.println( "测试开始" );
-        for (int i = 0; i < testTimes; i++) {
-            int[] arr = randomArray( len, value );
-            long t1 = System.currentTimeMillis();
-            int ans1 = num1( arr );
-            long t2 = System.currentTimeMillis();
-            System.out.println( "暴力时间："+(t2 - t1) );
-            int ans2 = num2( arr );
-            long t3 = System.currentTimeMillis();
-            System.out.println( "index tree时间："+(t3 - t2) );
-//            if (ans1 != ans2) {
-//                System.out.println( "出错了!" );
-//            }
-        }
-        System.out.println( "测试结束" );
+//        int len = 20;
+//        int value = 100;
+//        int testTimes = 10000;
+//        System.out.println( "测试开始" );
+//        for (int i = 0; i < testTimes; i++) {
+//            int[] arr = randomArray( len, value );
+//            long t1 = System.currentTimeMillis();
+//            int ans1 = num1( arr );
+//            long t2 = System.currentTimeMillis();
+//            System.out.println( "暴力时间："+(t2 - t1) );
+//            int ans2 = num2( arr );
+//            long t3 = System.currentTimeMillis();
+//            System.out.println( "index tree时间："+(t3 - t2) );
+////            if (ans1 != ans2) {
+////                System.out.println( "出错了!" );
+////            }
+//        }
+//        System.out.println( "测试结束" );
+        int[] arr = {5, 3, 4, 2, 1};
+
+        int ans2 = num2( arr );
     }
 
 }

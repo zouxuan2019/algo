@@ -57,7 +57,8 @@ public class A016_TopoSort {
         }
         StringBuilder sb = new StringBuilder();
         while (!levelMap.isEmpty()) {
-            sb.append( levelMap.poll().val );
+            LevelInfo poll = levelMap.poll();
+            sb.append( "(" + poll.val + "level:" + poll.level + ")" );
         }
         return sb.toString();
     }
