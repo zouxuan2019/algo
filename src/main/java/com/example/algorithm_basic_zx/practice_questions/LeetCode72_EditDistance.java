@@ -1,6 +1,6 @@
 package com.example.algorithm_basic_zx.practice_questions;
 
-//https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/submissions/
+//https://leetcode.com/problems/edit-distance/
 public class LeetCode72_EditDistance {
     public static void main(String[] args) {
         String str1 = "abcd";

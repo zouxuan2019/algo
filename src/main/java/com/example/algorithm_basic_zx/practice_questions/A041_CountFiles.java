@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class A041_CountFiles {
     public static void main(String[] args) {
-        String path = "/Users/zouxuan/Projects/test";
+        String path = "/Users/zouxuan/ZouXuan_Projects/workspace/algorithm_basic_zx/src/main/java";
         System.out.println(getFileNumber(path));
     }
 

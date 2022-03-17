@@ -3,6 +3,7 @@ package com.example.algorithm_basic_zx.practice_questions;
 import java.util.ArrayList;
 import java.util.List;
 
+//Find all possible combinations of ways which equals to that sum
 public class A021_CombinationEqualToSum {
     public static void main(String[] args) {
         int[] arr = {2, 3, 6, 7};
